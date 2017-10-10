@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B63615941F8CC60C00E963FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B63615931F8CC60C00E963FD /* main.m */; };
+		B63615971F8CC60C00E963FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B63615961F8CC60C00E963FD /* AppDelegate.m */; };
+		B636159A1F8CC60C00E963FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63615991F8CC60C00E963FD /* ViewController.m */; };
+		B636159D1F8CC60C00E963FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B636159B1F8CC60C00E963FD /* Main.storyboard */; };
+		B636159F1F8CC60C00E963FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B636159E1F8CC60C00E963FD /* Assets.xcassets */; };
+		B63615A21F8CC60C00E963FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63615A01F8CC60C00E963FD /* LaunchScreen.storyboard */; };
+		B63615AD1F8CC60D00E963FD /* Cheeky_MonkeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B63615AC1F8CC60D00E963FD /* Cheeky_MonkeyTests.m */; };
+		B63615B81F8CC60D00E963FD /* Cheeky_MonkeyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B63615B71F8CC60D00E963FD /* Cheeky_MonkeyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B63615A91F8CC60D00E963FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63615871F8CC60B00E963FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B636158E1F8CC60B00E963FD;
+			remoteInfo = "Cheeky Monkey";
+		};
+		B63615B41F8CC60D00E963FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63615871F8CC60B00E963FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B636158E1F8CC60B00E963FD;
+			remoteInfo = "Cheeky Monkey";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B636158F1F8CC60C00E963FD /* Cheeky Monkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheeky Monkey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63615931F8CC60C00E963FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B63615951F8CC60C00E963FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B63615961F8CC60C00E963FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B63615981F8CC60C00E963FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B63615991F8CC60C00E963FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B636159C1F8CC60C00E963FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B636159E1F8CC60C00E963FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63615A11F8CC60C00E963FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B63615A31F8CC60C00E963FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63615A81F8CC60D00E963FD /* Cheeky MonkeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheeky MonkeyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63615AC1F8CC60D00E963FD /* Cheeky_MonkeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cheeky_MonkeyTests.m; sourceTree = "<group>"; };
+		B63615AE1F8CC60D00E963FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63615B31F8CC60D00E963FD /* Cheeky MonkeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cheeky MonkeyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63615B71F8CC60D00E963FD /* Cheeky_MonkeyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cheeky_MonkeyUITests.m; sourceTree = "<group>"; };
+		B63615B91F8CC60D00E963FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B636158C1F8CC60B00E963FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63615A51F8CC60D00E963FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63615B01F8CC60D00E963FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B63615861F8CC60B00E963FD = {
+			isa = PBXGroup;
+			children = (
+				B63615911F8CC60C00E963FD /* Cheeky Monkey */,
+				B63615AB1F8CC60D00E963FD /* Cheeky MonkeyTests */,
+				B63615B61F8CC60D00E963FD /* Cheeky MonkeyUITests */,
+				B63615901F8CC60C00E963FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B63615901F8CC60C00E963FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B636158F1F8CC60C00E963FD /* Cheeky Monkey.app */,
+				B63615A81F8CC60D00E963FD /* Cheeky MonkeyTests.xctest */,
+				B63615B31F8CC60D00E963FD /* Cheeky MonkeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63615911F8CC60C00E963FD /* Cheeky Monkey */ = {
+			isa = PBXGroup;
+			children = (
+				B63615951F8CC60C00E963FD /* AppDelegate.h */,
+				B63615961F8CC60C00E963FD /* AppDelegate.m */,
+				B63615981F8CC60C00E963FD /* ViewController.h */,
+				B63615991F8CC60C00E963FD /* ViewController.m */,
+				B636159B1F8CC60C00E963FD /* Main.storyboard */,
+				B636159E1F8CC60C00E963FD /* Assets.xcassets */,
+				B63615A01F8CC60C00E963FD /* LaunchScreen.storyboard */,
+				B63615A31F8CC60C00E963FD /* Info.plist */,
+				B63615921F8CC60C00E963FD /* Supporting Files */,
+			);
+			path = "Cheeky Monkey";
+			sourceTree = "<group>";
+		};
+		B63615921F8CC60C00E963FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B63615931F8CC60C00E963FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B63615AB1F8CC60D00E963FD /* Cheeky MonkeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				B63615AC1F8CC60D00E963FD /* Cheeky_MonkeyTests.m */,
+				B63615AE1F8CC60D00E963FD /* Info.plist */,
+			);
+			path = "Cheeky MonkeyTests";
+			sourceTree = "<group>";
+		};
+		B63615B61F8CC60D00E963FD /* Cheeky MonkeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B63615B71F8CC60D00E963FD /* Cheeky_MonkeyUITests.m */,
+				B63615B91F8CC60D00E963FD /* Info.plist */,
+			);
+			path = "Cheeky MonkeyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B636158E1F8CC60B00E963FD /* Cheeky Monkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63615BC1F8CC60D00E963FD /* Build configuration list for PBXNativeTarget "Cheeky Monkey" */;
+			buildPhases = (
+				B636158B1F8CC60B00E963FD /* Sources */,
+				B636158C1F8CC60B00E963FD /* Frameworks */,
+				B636158D1F8CC60B00E963FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cheeky Monkey";
+			productName = "Cheeky Monkey";
+			productReference = B636158F1F8CC60C00E963FD /* Cheeky Monkey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B63615A71F8CC60D00E963FD /* Cheeky MonkeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63615BF1F8CC60D00E963FD /* Build configuration list for PBXNativeTarget "Cheeky MonkeyTests" */;
+			buildPhases = (
+				B63615A41F8CC60D00E963FD /* Sources */,
+				B63615A51F8CC60D00E963FD /* Frameworks */,
+				B63615A61F8CC60D00E963FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63615AA1F8CC60D00E963FD /* PBXTargetDependency */,
+			);
+			name = "Cheeky MonkeyTests";
+			productName = "Cheeky MonkeyTests";
+			productReference = B63615A81F8CC60D00E963FD /* Cheeky MonkeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B63615B21F8CC60D00E963FD /* Cheeky MonkeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63615C21F8CC60D00E963FD /* Build configuration list for PBXNativeTarget "Cheeky MonkeyUITests" */;
+			buildPhases = (
+				B63615AF1F8CC60D00E963FD /* Sources */,
+				B63615B01F8CC60D00E963FD /* Frameworks */,
+				B63615B11F8CC60D00E963FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63615B51F8CC60D00E963FD /* PBXTargetDependency */,
+			);
+			name = "Cheeky MonkeyUITests";
+			productName = "Cheeky MonkeyUITests";
+			productReference = B63615B31F8CC60D00E963FD /* Cheeky MonkeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63615871F8CC60B00E963FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Entrdasoft;
+				TargetAttributes = {
+					B636158E1F8CC60B00E963FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B63615A71F8CC60D00E963FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B636158E1F8CC60B00E963FD;
+					};
+					B63615B21F8CC60D00E963FD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B636158E1F8CC60B00E963FD;
+					};
+				};
+			};
+			buildConfigurationList = B636158A1F8CC60B00E963FD /* Build configuration list for PBXProject "Cheeky Monkey" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B63615861F8CC60B00E963FD;
+			productRefGroup = B63615901F8CC60C00E963FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B636158E1F8CC60B00E963FD /* Cheeky Monkey */,
+				B63615A71F8CC60D00E963FD /* Cheeky MonkeyTests */,
+				B63615B21F8CC60D00E963FD /* Cheeky MonkeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B636158D1F8CC60B00E963FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63615A21F8CC60C00E963FD /* LaunchScreen.storyboard in Resources */,
+				B636159F1F8CC60C00E963FD /* Assets.xcassets in Resources */,
+				B636159D1F8CC60C00E963FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63615A61F8CC60D00E963FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63615B11F8CC60D00E963FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B636158B1F8CC60B00E963FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B636159A1F8CC60C00E963FD /* ViewController.m in Sources */,
+				B63615971F8CC60C00E963FD /* AppDelegate.m in Sources */,
+				B63615941F8CC60C00E963FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63615A41F8CC60D00E963FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63615AD1F8CC60D00E963FD /* Cheeky_MonkeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63615AF1F8CC60D00E963FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63615B81F8CC60D00E963FD /* Cheeky_MonkeyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B63615AA1F8CC60D00E963FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B636158E1F8CC60B00E963FD /* Cheeky Monkey */;
+			targetProxy = B63615A91F8CC60D00E963FD /* PBXContainerItemProxy */;
+		};
+		B63615B51F8CC60D00E963FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B636158E1F8CC60B00E963FD /* Cheeky Monkey */;
+			targetProxy = B63615B41F8CC60D00E963FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B636159B1F8CC60C00E963FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B636159C1F8CC60C00E963FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B63615A01F8CC60C00E963FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B63615A11F8CC60C00E963FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B63615BA1F8CC60D00E963FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B63615BB1F8CC60D00E963FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63615BD1F8CC60D00E963FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cheeky Monkey/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Entrdasoft.Cheeky-Monkey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B63615BE1F8CC60D00E963FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cheeky Monkey/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Entrdasoft.Cheeky-Monkey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B63615C01F8CC60D00E963FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cheeky MonkeyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Entrdasoft.Cheeky-MonkeyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheeky Monkey.app/Cheeky Monkey";
+			};
+			name = Debug;
+		};
+		B63615C11F8CC60D00E963FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cheeky MonkeyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Entrdasoft.Cheeky-MonkeyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cheeky Monkey.app/Cheeky Monkey";
+			};
+			name = Release;
+		};
+		B63615C31F8CC60D00E963FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cheeky MonkeyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Entrdasoft.Cheeky-MonkeyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cheeky Monkey";
+			};
+			name = Debug;
+		};
+		B63615C41F8CC60D00E963FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cheeky MonkeyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Entrdasoft.Cheeky-MonkeyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cheeky Monkey";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B636158A1F8CC60B00E963FD /* Build configuration list for PBXProject "Cheeky Monkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63615BA1F8CC60D00E963FD /* Debug */,
+				B63615BB1F8CC60D00E963FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63615BC1F8CC60D00E963FD /* Build configuration list for PBXNativeTarget "Cheeky Monkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63615BD1F8CC60D00E963FD /* Debug */,
+				B63615BE1F8CC60D00E963FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B63615BF1F8CC60D00E963FD /* Build configuration list for PBXNativeTarget "Cheeky MonkeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63615C01F8CC60D00E963FD /* Debug */,
+				B63615C11F8CC60D00E963FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B63615C21F8CC60D00E963FD /* Build configuration list for PBXNativeTarget "Cheeky MonkeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63615C31F8CC60D00E963FD /* Debug */,
+				B63615C41F8CC60D00E963FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63615871F8CC60B00E963FD /* Project object */;
+}
